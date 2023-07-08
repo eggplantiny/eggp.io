@@ -15,4 +15,7 @@ export default defineNuxtConfig({
     right: true,
     duration: 5000,
   },
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
 })
