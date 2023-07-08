@@ -6,12 +6,16 @@ import EggplantIcon from '~/assets/images/icon.png'
   <header class="header">
     <nav class="daisy-navbar">
       <div class="daisy-navbar-start">
-        <NuxtLink class="link-btn" to="/">
+        <NuxtLink class="link-btn lin-btn--square" to="/">
           <img :src="EggplantIcon" alt="Eggp" class="eggp">
         </NuxtLink>
       </div>
 
       <div class="daisy-navbar-end">
+        <NuxtLink class="link-btn">
+          Blog
+        </NuxtLink>
+
         <NuxtLink class="link-btn">
           Resume
         </NuxtLink>
@@ -20,7 +24,7 @@ import EggplantIcon from '~/assets/images/icon.png'
           Demo
         </NuxtLink>
 
-        <a class="link-btn" href="https://github.com/eggplantiny" target="_blank">
+        <a class="link-btn lin-btn--square" href="https://github.com/eggplantiny" target="_blank">
           <Icon name="carbon:logo-github" size="28" />
         </a>
       </div>
@@ -30,7 +34,11 @@ import EggplantIcon from '~/assets/images/icon.png'
 
 <style scoped lang="scss">
 .link-btn {
-  @apply daisy-btn daisy-btn-ghost text-base-content;
+  @apply daisy-btn daisy-btn-ghost text-base-content normal-case;
+}
+
+.lin-btn--square {
+  @apply daisy-btn-square;
 }
 
 .eggp {

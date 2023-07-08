@@ -4,7 +4,15 @@
 
 <template>
   <main>
-    Hello World!
+    <div class="daisy-card">
+      <div class="daisy-card-body">
+        <div class="daisy-card-title">
+          Hello World
+        </div>
+
+        Good
+      </div>
+    </div>
   </main>
 </template>
 
