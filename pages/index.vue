@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    Hello World
+    Hello World!
   </main>
 </template>
 

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-snackbar',
     '@vueuse/nuxt',
-    'nuxt-icons',
+    'nuxt-icon',
     'nuxt-headlessui',
     '@nuxt/content',
     // '@nuxt/image',
