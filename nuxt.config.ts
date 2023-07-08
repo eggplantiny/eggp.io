@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     // '@nuxt/image',
   ],
+  css: [
+    '~/assets/styles/main.scss',
+  ],
   snackbar: {
     top: true,
     right: true,
