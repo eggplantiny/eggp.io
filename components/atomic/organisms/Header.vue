@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import EggplantIcon from '~/assets/images/icon.png'
+
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
 </script>
 
 <template>
@@ -12,6 +15,9 @@ import EggplantIcon from '~/assets/images/icon.png'
       </div>
 
       <div class="daisy-navbar-end">
+        <button type="button" class="link-btn link-btn--square">
+          <Icon :name="isDark ? 'carbon:moon' : 'carbon:sun'" size="28" @click="toggleDark()" />
+        </button>
         <a class="link-btn lin-btn--square" href="https://www.linkedin.com/in/%EC%84%B1%EC%9A%B0-%EC%A0%95-b757a9141/" target="_blank">
           <Icon name="carbon:logo-linkedin" size="28" />
         </a>
@@ -26,7 +32,7 @@ import EggplantIcon from '~/assets/images/icon.png'
 
 <style scoped lang="scss">
 .link-btn {
-  @apply daisy-btn daisy-btn-ghost text-base-content normal-case;
+  @apply daisy-btn daisy-btn-ghost normal-case;
 }
 
 .lin-btn--square {

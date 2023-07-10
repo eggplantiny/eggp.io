@@ -15,7 +15,8 @@ import Footer from '~/components/atomic/organisms/Footer.vue'
 
 <style scoped lang="scss">
 .application {
-  @apply min-h-screen bg-base-100 text-base-content;
+  @apply min-h-screen bg-white text-base-100 dark:bg-base-100 dark:text-base-content;
+  @apply transition-colors duration-300 ease-in-out #{!important}
 }
 
 main {
