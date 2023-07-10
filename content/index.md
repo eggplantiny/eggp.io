@@ -5,9 +5,9 @@ description: Jung's Portfolio
 
 Hi, I'm Jung Sung-woo. I'm a self-motivated individual who is always striving to be inspired and inspire others. currently working as a Front-End developer at [KT Corp](https://corp.kt.com/eng/).
 
-I enjoy designing programs that are easy for others to develop. I also enjoy leading development cultures that promote growth.
+I enjoy designing architecture that are easy for others to develop. I also enjoy leading development cultures that promote growth.
 
-I'm a fan of Korean indie music and lo-fi music, and I love playing the ukulele. 🪕
+I'm a fan of Korean indie music and lo-fi music, and I love playing the ukulele 🪕
 
 
 # Experience
