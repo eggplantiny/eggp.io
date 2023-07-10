@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: [require('daisyui')],
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
     prefix: 'daisy-',
     themes: [
@@ -10,6 +10,7 @@ module.exports = {
           "accent": "#f7c3a5",
           "neutral": "#24292e",
           "base-100": "#21173c",
+          "base-content": "#ffffff",
           "info": "#799ce7",
           "success": "#115a38",
           "warning": "#ca6b0c",

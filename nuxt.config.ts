@@ -19,6 +19,6 @@ export default defineNuxtConfig({
     duration: 5000,
   },
   content: {
-    // https://content.nuxtjs.org/api/configuration
+    documentDriven: true,
   },
 })

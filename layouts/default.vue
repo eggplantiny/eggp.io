@@ -5,9 +5,9 @@ import Header from '~/components/atomic/organisms/Header.vue'
 <template>
   <div class="application">
     <Header />
-    <div class="container mx-auto max-w-3xl">
+    <main class="container mx-auto max-w-3xl">
       <slot :key="$route.fullPath" />
-    </div>
+    </main>
   </div>
 </template>
 
