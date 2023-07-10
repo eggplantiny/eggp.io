@@ -3,11 +3,11 @@ title: eggp
 description: Jung's Portfolio
 ---
 
-Hello, I'm Jung Sung-woo
+Hi, I'm Jung Sung-woo. I'm a self-motivated individual who is always striving to be inspired and inspire others. currently working as a Front-End developer at [KT Corp](https://corp.kt.com/eng/).
 
-I'm a developer who tries to be self-motivated and studies to be someone who can inspire others.
+I enjoy designing programs that are easy for others to develop. I also enjoy leading development cultures that promote growth.
 
-I'm currently working as a frontend developer at [KT Corp](https://corp.kt.com/eng/).
+I'm a fan of Korean indie music and lo-fi music, and I love playing the ukulele. 🪕
 
 
 # Experience
