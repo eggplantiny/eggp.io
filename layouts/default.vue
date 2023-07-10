@@ -1,18 +1,25 @@
 <script lang="ts" setup>
 import Header from '~/components/atomic/organisms/Header.vue'
+import Footer from '~/components/atomic/organisms/Footer.vue'
 </script>
 
 <template>
   <div class="application">
     <Header />
-    <main class="container mx-auto max-w-3xl px-6">
+    <main>
       <slot :key="$route.fullPath" />
     </main>
+    <Footer />
   </div>
 </template>
 
 <style scoped lang="scss">
 .application {
   @apply min-h-screen bg-base-100 text-base-content;
+}
+
+main {
+  @apply container mx-auto max-w-3xl px-6;
+  min-height: calc(100vh + 96px);
 }
 </style>
