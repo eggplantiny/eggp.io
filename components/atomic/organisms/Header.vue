@@ -12,17 +12,9 @@ import EggplantIcon from '~/assets/images/icon.png'
       </div>
 
       <div class="daisy-navbar-end">
-        <NuxtLink class="link-btn">
-          Blog
-        </NuxtLink>
-
-        <NuxtLink class="link-btn">
-          Resume
-        </NuxtLink>
-
-        <NuxtLink class="link-btn">
-          Demo
-        </NuxtLink>
+        <a class="link-btn lin-btn--square" href="https://www.linkedin.com/in/%EC%84%B1%EC%9A%B0-%EC%A0%95-b757a9141/" target="_blank">
+          <Icon name="carbon:logo-linkedin" size="28" />
+        </a>
 
         <a class="link-btn lin-btn--square" href="https://github.com/eggplantiny" target="_blank">
           <Icon name="carbon:logo-github" size="28" />
