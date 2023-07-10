@@ -5,7 +5,7 @@ import Header from '~/components/atomic/organisms/Header.vue'
 <template>
   <div class="application">
     <Header />
-    <main class="container mx-auto max-w-3xl">
+    <main class="container mx-auto max-w-3xl px-6">
       <slot :key="$route.fullPath" />
     </main>
   </div>
