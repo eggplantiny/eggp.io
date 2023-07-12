@@ -59,17 +59,20 @@ WSIN is a CMS tool for internal product management at Wemakeprice. It is a back-
 |tech| Vue2, Javascript, Vuetify, Vuex, Chartjs |
 ||                                          |
 
-### Selvy Checkup
+### Selvy Checkup Mobile
 
-Selvy Checkup is a mobile web service that provides customized health reports based on health check-up data.
+Selvy Checkup Mobile is a service that provides customized health reports based on health check-up data.
 
-- Selvy Checkup mobile web app development
-  - Developed various charts using Chart.js
-  - Developed a Bridge that can be used on both Android and iOS devices
-  - Developed a usage registration scenario using Firebase Deep Link
-  - Scraped health check-up information and cleaned data using an external company scraping module
+- Developed various charts using Chart.js
+- Developed a Bridge that can be used on both Android and iOS devices
+- Developed a usage registration scenario using Firebase Deep Link
+- Scraped health check-up information and cleaned data using an external company scraping module
 
-- Selvy Checkup Manager back-office web development
-  - Developed a back-office for FC and Admin management
-  - Developed a usage purchase scenario using IamPort service
-  - Developed promotion pages for each insurance company
+### Selvy Checkup Manager
+
+Selvy Checkup Manager is a back-office web application that manages Selvy Checkup Mobile.
+
+- Developed a back-office for FC and Admin management
+- Developed a usage purchase scenario using IamPort service
+- Developed promotion pages for each insurance company
+- Developed a dashboard for FC and Admin
