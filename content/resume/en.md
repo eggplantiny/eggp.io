@@ -3,9 +3,9 @@ title: eggp
 description: Jung's Portfolio
 ---
 
-Hello! My name is **Jung Sung-woo**
+Hello! My name is Jung Sung-woo .
 
-I am a developer who aspires to be self-motivated and to inspire others through my work. currently working as a Front-End developer at [KT Corp.](https://corp.kt.com/eng/)
+I am a developer who aspires to be self-motivated and to inspire others through my work. 
 
 My passion lies in creating architectures that simplify the development process for others, and fostering a developmental culture that encourages growth.
 

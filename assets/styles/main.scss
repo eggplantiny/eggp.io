@@ -27,3 +27,15 @@ h2, h3 {
   }
 }
 
+
+strong {
+  @apply text-indigo-800 dark:text-primary font-bold #{!important};
+}
+
+::-moz-selection {
+  @apply bg-indigo-300 text-indigo-900 #{!important};
+}
+
+::selection {
+  @apply bg-indigo-300 text-indigo-900 #{!important};
+}
