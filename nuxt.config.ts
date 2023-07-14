@@ -18,7 +18,9 @@ export default defineNuxtConfig({
     right: true,
     duration: 5000,
   },
+  experimental: {
+    payloadExtraction: false,
+  },
   content: {
-    documentDriven: false,
   },
 })
