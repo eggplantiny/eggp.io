@@ -7,7 +7,7 @@ import Footer from '~/components/atomic/organisms/Footer.vue'
   <div class="application">
     <Header />
     <main>
-      <slot :key="$route.fullPath" />
+      <NuxtPage />
     </main>
     <Footer />
   </div>
@@ -16,7 +16,7 @@ import Footer from '~/components/atomic/organisms/Footer.vue'
 <style scoped lang="scss">
 .application {
   @apply min-h-screen bg-white text-base-100 dark:bg-base-100 dark:text-base-content;
-  @apply transition-colors duration-300 ease-in-out #{!important}
+  @apply transition-colors duration-300 ease-in-out;
 }
 
 main {

@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-headlessui',
     '@nuxt/content',
-    // '@nuxt/image',
   ],
   css: [
     '~/assets/styles/main.scss',
@@ -18,9 +17,11 @@ export default defineNuxtConfig({
     right: true,
     duration: 5000,
   },
-  experimental: {
-    payloadExtraction: false,
-  },
   content: {
+  },
+  nitro: {
+    prerender: {
+      routes: ['/resume'],
+    },
   },
 })
