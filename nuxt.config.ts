@@ -19,6 +19,6 @@ export default defineNuxtConfig({
     duration: 5000,
   },
   content: {
-    documentDriven: true,
+    documentDriven: false,
   },
 })
