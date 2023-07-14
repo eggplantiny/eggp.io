@@ -8,7 +8,11 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-headlessui',
     '@nuxt/content',
+    'nuxt-gtag',
   ],
+  gtag: {
+    id: 'G-PPK1YGQHSM',
+  },
   css: [
     '~/assets/styles/main.scss',
   ],
