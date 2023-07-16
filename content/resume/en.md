@@ -47,7 +47,7 @@ Robot Makers is a platform offering comprehensive functionalities for the manage
 WSIN is a CMS back-office web application that manages all WeMakePrice products, including catalog and category management.
 
 - Undertook the enhancement and maintenance of service features.
-- **Refactored** the project from Vue2 Optional API to Vue3 Composition API.
+- **Refactored** the project from Vue2 Optional API to Composition API.
 - **Transitioned** the project from Javascript to Typescript.
 
 ## Selvas AI

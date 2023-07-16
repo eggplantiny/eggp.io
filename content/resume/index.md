@@ -48,7 +48,7 @@ description: FE 개발자 정성우 포트폴리오
 카탈로그 관리 및 카테고리 관리를 포함한 모든 Wemakeprice 제품을 관리하는 CMS 백오피스 웹 애플리케이션입니다.
 
 - 서비스 기능 개선 및 유지보수를 헀습니다.
-- Vue2 Optional API 로 구성된 프로젝트를 **Vue3 Composition API 로 리팩터링** 헀습니다.
+- Vue2 Optional API 로 구성된 프로젝트를 **Composition API 로 리팩터링** 헀습니다.
 - Javascript 로 구성된 프로젝트를 **Typescript 로 전환**시켰습니다.
 
 ## Selvas AI
