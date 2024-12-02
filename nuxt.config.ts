@@ -22,6 +22,13 @@ export default defineNuxtConfig({
     duration: 5000,
   },
   content: {
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+        sepia: 'monokai',
+      },
+    },
   },
   nitro: {
     prerender: {

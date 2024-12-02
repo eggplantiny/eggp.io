@@ -9,30 +9,43 @@ description: FE 개발자 정성우 포트폴리오
 다른 누군가에게 영감을 줄 수 있는 사람이 되기 위해 공부하는 개발자 입니다.
 현재 [KT](https://corp.kt.com/) 에서 프론트엔드 개발자로 일하고 있습니다.
 
-저는 다른 사람들이 쉽게 개발할 수 있는 아키텍처를 설계하는 것을 즐기고, 성장을 촉진하는 개발 문화를 만드는 것도 즐깁니다.
+저는 다른 사람들이 쉽게 개발할 수 있는 아키텍처를 설계하는 것을 지향하며, 성장을 촉진하는 개발 문화를 만드는 것도 즐깁니다.
 
 마지막으로 저는 한국 인디 음악과 로파이 음악을 좋아하며, 우쿨렐레를 치는 것을 좋아합니다 🪕
 
 # Experience
 
 ## KT Corp
-||                                                   |
-|---|---------------------------------------------------|
-|period| 2022.03 ~ **current**                             |
-|position| Robot Makers Platform Frontend Lead               |
-|projects| Admin Client Platform, Dx Client Platform         |
-|tech| Nuxt, Vue, Typescript, TailwindCSS, Vite, Pinia, Chartjs |
-||                                                   |
+||                                                                              |
+|---|------------------------------------------------------------------------------|
+|period| 2022.03 ~ **current**                                                        |
+|position| DX Service Dev Team Frontend Part Leader                                     |
+|projects| Admin Client Platform, Dx Client Platform                                    |
+|tech| Nuxt, Next.js, Vue, React, Typescript, TailwindCSS, Vite, Pinia, Maplibre.js |
+||                                                                              |
 
-### Robot Makers 2.0
+### KT RaaS (Robot as a Service) Platform FE 개발 리딩
 
 로봇 메이커스는 로봇을 관리하고 운영하기 위한 종합적인 기능을 제공하는 서비스입니다.
 
 - 다기종 로봇 제어 및 고객 및 사이트 관리를 위한 관리자 웹 애플리케이션을 구성했습니다.
-- 쉬운 작업을 위해 BFF (Backend for Frontend) Interface 를 자동으로 분석하여 Vue SFC를 생성해주는 **Transpiler**를 구현했습니다.
-- 실내 및 실외 지도에 존, 노드, 엣지 등 다양한 요소를 표현 및 수정 할 수 있는 **지도 통합 SDK**를 구현했습니다.
+- 쉬운 작업을 위해 BFF (Backend for Frontend) Interface 를 자동으로 분석하여 Vue SFC를 생성해주는 **Utility**를 구현했습니다.
+- 실내 및 실외 지도에 존, 노드, 엣지 등 다양한 요소를 표현 및 수정 할 수 있는 **지도 통합 컴포넌트**를 구현했습니다.
 - 사용자가 직접 **커스트마이징 가능한 대시보드**를 구현했습니다.
 - 화면을 쉽게 구성할 수 있도록 컴포넌트와 컴포저블을 구성했습니다.
+
+### KT Smartcity 구축형 서비스 개발
+
+KT의 최첨단 ABC기술(AI, BigData, Cloud)로 흩어져 있는 도시 데이터를 분석해 도시의 다양한 문제를 해결하는 스마트시티 통합 솔루션 서비스입니다.
+
+- Typescript 와 Zod 를 사용하여 CRUD 패턴 화면의 탬플릿 컴포넌트와 컴포저블을 설계 및 구현하였습니다. 이로서 단일 화면을 구현하는데 기존 대비 **50% 이상의 시간을 단축**할 수 있었습니다.
+- MaplibreGL 및 VWorld API 기반 GIS 대시보드 구현을 통해 **실시간 데이터 시각화**를 구현했습니다.
+  - **실시간 데이터 시각화**를 위해 **Websocket**을 사용하여 데이터를 실시간으로 받아오는 기능을 구현했습니다.
+  - Layer, Source, Feature 등을 **동적으로 생성**하여 다양한 데이터를 표현할 수 있도록 구현했습니다.
+
+### @fe-core 라이브러리 개발 리딩
+
+담당 내 프로젝트에서 자주 사용하는 컴포넌트나 유틸리티를 SDK 형태로 제공하는 라이브러리를 개발하였습니다.
 
 ## WeMakePrice
 ||                               |
