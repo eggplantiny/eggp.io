@@ -31,6 +31,9 @@ const toggleDark = useToggle(isDark)
 </template>
 
 <style scoped lang="scss">
+.header {
+  @apply sticky top-0 z-50 bg-white dark:bg-base-100;
+}
 .link-btn {
   @apply daisy-btn daisy-btn-ghost normal-case;
 }
@@ -45,5 +48,11 @@ const toggleDark = useToggle(isDark)
 
 .eggp:hover {
   @apply animate-spin;
+}
+
+@media print {
+  .link-btn {
+    @apply hidden;
+  }
 }
 </style>

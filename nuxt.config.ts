@@ -29,6 +29,12 @@ export default defineNuxtConfig({
         sepia: 'monokai',
       },
     },
+    markdown: {
+      toc: {
+        depth: 5,
+        searchDepth: 5,
+      },
+    },
   },
   nitro: {
     prerender: {

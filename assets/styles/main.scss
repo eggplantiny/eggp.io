@@ -9,7 +9,7 @@
   font-family: "Pretendard-Regular", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-h2, h3 {
+h1, h2, h3, h4 {
   a {
     text-decoration: none !important;
   }
@@ -38,4 +38,28 @@ strong {
 
 ::selection {
   @apply bg-indigo-300 text-indigo-900 #{!important};
+}
+
+.nuxt-content {
+  table {
+    td:first-child {
+      @apply w-0;
+    }
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+      @apply text-3xl font-bold;
+  }
+
+  h3 {
+      @apply text-2xl font-bold;
+  }
+
+  h4 {
+      @apply text-xl font-bold;
+  }
 }

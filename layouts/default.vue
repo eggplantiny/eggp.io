@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import Header from '~/components/atomic/organisms/Header.vue'
 import Footer from '~/components/atomic/organisms/Footer.vue'
+import Header from '~/components/atomic/organisms/Header.vue'
 </script>
 
 <template>
@@ -16,7 +16,6 @@ import Footer from '~/components/atomic/organisms/Footer.vue'
 <style scoped lang="scss">
 .application {
   @apply min-h-screen bg-white text-base-100 dark:bg-base-100 dark:text-base-content;
-  @apply transition-colors duration-300 ease-in-out;
 }
 
 main {
