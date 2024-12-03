@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.11.2",
+    "@nuxtjs/i18n": "9.1.0",
     "@types/node": "^18.19.67",
     "eslint": "^9.16.0",
     "nuxt": "^3.14.1592",

@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@nuxt/content',
     'nuxt-gtag',
+    '@nuxtjs/i18n',
   ],
   gtag: {
     id: 'G-BQQQM99QRS',

@@ -72,7 +72,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="el" class="toc max-h-82 overflow-auto">
+  <div ref="el" class="toc max-h-82 overflow-auto max-w-52">
     <h2>Table of contents</h2>
     <nav class="mt-2 flex">
       <ul class="ml-0 pl-4">

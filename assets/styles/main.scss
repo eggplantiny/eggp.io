@@ -62,4 +62,8 @@ strong {
   h4 {
       @apply text-xl font-bold;
   }
+
+  strong {
+    @apply break-keep #{!important};
+  }
 }
